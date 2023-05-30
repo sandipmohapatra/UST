@@ -35,6 +35,25 @@ We can store data from 1 byte to 5 TB of data.
 We also call it as S3 bucket.Bucket is a folder available in S3 that stores a file.
 It contains DNS address and a unique name.
 -------------------------------------------------------------------------------------------------------------
+EC2
+---------------------
+EC2 stands for Amazon Elastic cloud.
+It is a web service that provides resizable compute capacity in the cloud.
+It allows you to pay only for the resources that you actually use.
+It can be planned and used for years together.
+It provides server with high CPU capacity and RAM capacity.
+It can be billed on houly or seconds basis .
+Linux instances is by seconds and windows are in hours.
+This is on demand and perfect for the users who want in low cost and flexible without any up-front investment or long-term commitment.
+--------------------------------------------------------------------------------------------------------
+Load-Balancer:-
+It is a virtual machine or appliance that balance your web application load that could be HTTP or HTTPS traffic that we are getting in the peak hours.
+It balances a load by multiple web servers so that no web servers are over loaded.
+------------------------------------------------------------------------- 
+
+
+
+
 
 
 
