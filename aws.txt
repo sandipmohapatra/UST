@@ -95,7 +95,7 @@ The SNS publishers and Subscribers.
 publishers--------------->Amazon SNS-------------->Subscriber
 -------------------------------------------------------------------------------------------
 The publishers are also known as producers that produce and send message to the Amazon SNS.
-The subscribers such as web server,email address,Amazon SQS ,AWS Lambda function receive the message or notification fron the SNS.
+The subscribers such as web server,email address,Amazon SQS ,AWS Lambda function receive the message or notification from the Amazon SNS.
 
 ------------------------------------------------------------------------------------------------
 SQS (Simple Queue Service)
@@ -106,6 +106,24 @@ The messages can contain up to 256KB of text in any format JSON,XML etc.
 The messages are stored and released in queue.
 It can be kept in a queue from 1 minute to 14 days.
 ------------------------------------------------------------------------------------------------------------------
+Lambda
+-------------------
+1) Data center :-Database servers,web servers are placed
+2)Hardware :-router,switch,network
+3)Protocals :- HTTP,HTTPS
+4)High-level language:-java,PHP,python
+5)operating system:-Linux,windows,mac
+6)AWS APIs
+
+Lambda is used to encapsulate data center,Hardware,protocals,high-level langauge,operating system and aws api.
+It is a compute service where you can upload your code and create a lambda function. 
+Lambda takes cares of manging the server,hardware,protocal,os,langauge where the lambda funtion will run.
+The lambda function is reusable and highly scalable.
+-----------------------------------------------------------------------
+
+
+
+
 
 
   
