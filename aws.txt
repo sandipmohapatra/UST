@@ -10,7 +10,7 @@ Pay-As-you-Go
 free services :- They are limited
 Paid services are unlimited.
 ----------------------
-advantage of AWS
+Advantage of AWS
 ---------------------------------
 1)Flexibility:-You will get more new features and services in AWS so that you can get more time for your bussiness.
 2)cost-effective:- AWS is 100 times less cost then the physical servers and clients.
@@ -120,6 +120,11 @@ It is a compute service where you can upload your code and create a lambda funct
 Lambda takes cares of manging the server,hardware,protocal,os,langauge where the lambda funtion will run.
 The lambda function is reusable and highly scalable.
 -----------------------------------------------------------------------
+CloudWatch
+-----------------------
+It is a service used to monitor your AWS resources and applications that we run on AWS.
+It is used to track and collect metrics that measure your resources and applications.
+
 
 
 
