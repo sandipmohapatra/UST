@@ -55,7 +55,7 @@ snowball:-
 It is used for import or export disk.
 It is used to accelerate moving large amount of data in or out of the AWS cloud using portable storage devices for tansport.
 If we use internet data transform it is very slow 1mbps.
-so if we send it by an external hard disk device 'snowball' the data tranfer will be high speed within the internal network.
+so if we send it by an 'snowball' the data tranfer will be high speed within the internal network.
 --------------------------------------------------------------------------------------------------------------------------------
 Dynamo DB
 -------------------------
@@ -79,6 +79,12 @@ They are securely stored in the server.The data is replicated to protect from a 
 The EBS volume doesnot exist in a single disk.
 Once we store the data in the Mumbai server the same data will be replicated in singapore,tokyo,seoul server.If the mumbai server crash then the data can be retrived from tokyo or singapore server. 
 -----------------------------------------------------------------------------------------------------------------
+SNS (Simple Notification Service)
+It is a web service which makes it easy to set up,operate and send a notification from the cloud.
+It is used to publish message from one application to another application.
+example:- If the EC2 instance is filling up we get a message.It is a trigger message which is automatically fired up.
+The messages are send to the email or mobile sms.
+
 
 
 
