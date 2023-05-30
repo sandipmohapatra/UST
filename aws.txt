@@ -50,6 +50,49 @@ Load-Balancer:-
 It is a virtual machine or appliance that balance your web application load that could be HTTP or HTTPS traffic that we are getting in the peak hours.
 It balances a load by multiple web servers so that no web servers are over loaded.
 ------------------------------------------------------------------------- 
+snowball:-
+---------------------
+It is used for import or export disk.
+It is used to accelerate moving large amount of data in or out of the AWS cloud using portable storage devices for tansport.
+If we use internet data transform it is very slow 1mbps.
+so if we send it by an external hard disk device 'snowball' the data tranfer will be high speed within the internal network.
+--------------------------------------------------------------------------------------------------------------------------------
+Dynamo DB
+-------------------------
+It is the database service provided by Amazon.
+It is fast and flexible NOSQL database service for all applications that require huge database service ie in tbs.
+It support document and key-value data models.
+This flexible data model make it suitable for mobile progamming,gaming ,IOT and other application.
+------------------------------------------------------------------------------------
+VPC (Virtual Private Cloud)
+------------------------------------------------------
+It provides a logically isolated area of the AWS cloud where we can lunch a virtual network and pay till you are using.
+You will be having total control over the virtual network.
+You can select your IP address range,create subnets, and configure route tables and network gateway.
+You can customize your network with adding application server,database server. you can provide multiple layers of security including security groups and network access.
+------------------------------------------------------------------------------------------------------
+EBS(Elastic block Store)
+EBS is a virtual disk in a cloud.
+EBS will allow you to create storage volumes  and attach them to the EC2 instance.
+Once the storage volumes are created you can create files on top of these volumes.we can create database.stores files and applications.
+They are securely stored in the server.The data is replicated to protect from a single point of failure.
+The EBS volume doesnot exist in a single disk.
+Once we store the data in the Mumbai server the same data will be replicated in singapore,tokyo,seoul server.If the mumbai server crash then the data can be retrived from tokyo or singapore server. 
+-----------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
