@@ -84,6 +84,31 @@ It is a web service which makes it easy to set up,operate and send a notificatio
 It is used to publish message from one application to another application.
 example:- If the EC2 instance is filling up we get a message.It is a trigger message which is automatically fired up.
 The messages are send to the email or mobile sms.
+The messages are send in 3 different ways.
+1)push notification to the mobile device.
+2)Email to Amazon Simple Queue Service.
+3)HTTP endpoint.
+It can also trigger the Lambda function.
+
+The SNS publishers and Subscribers.
+------------------------------------------------------------------------------------------
+publishers--------------->Amazon SNS-------------->Subscriber
+-------------------------------------------------------------------------------------------
+The publishers are also known as producers that produce and send message to the Amazon SNS.
+The subscribers such as web server,email address,Amazon SQS ,AWS Lambda function receive the message or notification fron the SNS.
+
+------------------------------------------------------------------------------------------------
+SQS (Simple Queue Service)
+------------------------------------------------
+It is used to store messages while waiting for a computer to process them.
+Using SQS we can send,store and receive messages between software components at any volumes without losing messages.
+The messages can contain up to 256KB of text in any format JSON,XML etc.
+The messages are stored and released in queue.
+It can be kept in a queue from 1 minute to 14 days.
+------------------------------------------------------------------------------------------------------------------
+
+
+  
 
 
 
