@@ -1,0 +1,49 @@
+What is AWS?
+AWS stands for Amazon Web Services.
+It provides different services.
+IAAS:- Infrastructure as a service
+PAAS:- Platform as a service.
+SAAS:- Software as a service.
+
+Pay-As-you-Go
+---------------------------
+free services :- They are limited
+Paid services are unlimited.
+----------------------
+advantage of AWS
+---------------------------------
+1)Flexibility:-You will get more new features and services in AWS so that you can get more time for your bussiness.
+2)cost-effective:- AWS is 100 times less cost then the physical servers and clients.
+3)Scalability/Elasticity:-More and more people can access or use the AWS .There is auto scaling and elastic load balance techniques which automatically scale up or down.
+4)Security:-AWS provides security.  
+--------------------------------------------------------------------
+IAM(Identity Access  Management)
+--------------------------------------------------------
+IAM allows you to manage users and their level of access to the aws console.
+It is used to set users permissions and roles.
+It allows you to grant access to the different parts of the aws platform.
+By this Oraganizations can centrally manage users,security credentials such as access keys  and permissions that control AWS resources.
+--------------------------------------------------------------------------------
+S3-101
+--------------------
+It is the first service provided by AWS.
+It is simple storage service.
+It also provide to the developers security,durablity,highly scalable object storage.
+We can store and retrive any amount of data from anywhere in the web.
+We can store images,word files,pdf files etc.
+We can store data from 1 byte to 5 TB of data.
+We also call it as S3 bucket.Bucket is a folder available in S3 that stores a file.
+It contains DNS address and a unique name.
+-------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
